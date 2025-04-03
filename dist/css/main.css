@@ -1,0 +1,147 @@
+.container {
+  padding: 1rem 13rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 1rem auto; }
+  .row-r {
+    display: flex;
+    flex-direction: row-reverse; }
+
+.column {
+  display: flex;
+  flex-direction: column; }
+  .column-r {
+    display: flex;
+    flex-direction: column-reverse; }
+
+.card {
+  padding: 0;
+  margin: 1rem auto;
+  width: 400px;
+  border-radius: 10px; }
+  .card__img {
+    background-image: url("../images/pexels-daan-stevens-66128-939331.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px; }
+  .card__body {
+    padding: 1rem 0.1rem; }
+    .card__body p {
+      text-align: justify; }
+  .card__title {
+    padding: 1rem 0;
+    color: darkslategray;
+    font-size: 2.1em; }
+  .card__action {
+    padding-top: 1rem; }
+  .card__btn {
+    display: block; }
+    .card__btn--primary {
+      width: 100%;
+      display: block;
+      padding: 0.5rem 0.1rem;
+      border-radius: 25px;
+      border: 2px solid #bbb;
+      background-color: #bbb; }
+      .card__btn--primary:hover {
+        background-color: #fff;
+        color: #333;
+        padding: 0.5rem 0.1rem; }
+    .card__btn--secondary {
+      width: 100%;
+      display: block;
+      padding: 0.5rem 0.1rem;
+      border-radius: 25px;
+      border: 2px solid #0661c9;
+      margin: 0 0.5rem;
+      color: #fff;
+      background-color: #0661c9; }
+      .card__btn--secondary:hover {
+        color: #0661c9;
+        padding: 0.5rem 0.1rem;
+        background-color: #fff; }
+
+.p-1 {
+  padding: .25em; }
+
+.p-2 {
+  padding: .5em; }
+
+.p-3 {
+  padding: 1em; }
+
+.p-4 {
+  padding: 1.5em; }
+
+.p-5 {
+  padding: 3em; }
+
+.m-1 {
+  margin: .25em; }
+
+.m-2 {
+  margin: .5em; }
+
+.m-3 {
+  margin: 1em; }
+
+.m-4 {
+  margin: 1.5em; }
+
+.m-5 {
+  margin: 3em; }
+
+* {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 13rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; }
+  header h1 {
+    font-family: serif; }
+    header h1 span {
+      color: #aaa; }
+  header ul {
+    list-style-type: none;
+    display: flex; }
+    header ul li {
+      margin: auto 2rem; }
+      header ul li a {
+        color: #000;
+        font-family: serif;
+        font-weight: bold; }
+        header ul li a:hover {
+          color: #088F8F; }
+
+.paragraph {
+  background-color: #eee;
+  padding: 5rem 13rem;
+  box-shadow: #ccdbe8 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  margin-top: 2rem;
+  border-bottom: 1px solid #bbb;
+  text-align: justify; }
+
+.about {
+  padding: 5rem;
+  text-align: center;
+  font-size: 3rem; }
+
+footer {
+  background-color: #333;
+  padding: 2rem 1rem;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif; }
